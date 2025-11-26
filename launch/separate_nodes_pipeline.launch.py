@@ -134,10 +134,10 @@ def launch_setup(
         )
         for namespace, color in [
             ("happypose", [1.0, 1.0, 1.0, 0.6]),
-            # ("labeled", [1.0, 1.0, 0.0, 0.6]),
-            # ("catchup", [0.3, 0.3, 1.0, 0.6]),
-            # ("m3t_tracker", [1.0, 0.3, 0.3, 0.6]),
-            # ("m3t_tracker/filtered", [0.3, 1.0, 0.3, 0.6]),
+            ("labeled", [1.0, 1.0, 0.0, 0.6]),
+            ("catchup", [0.3, 0.3, 1.0, 0.6]),
+            ("m3t_tracker", [1.0, 0.3, 0.3, 0.6]),
+            ("m3t_tracker/filtered", [0.3, 1.0, 0.3, 0.6]),
         ]
     ]
 
